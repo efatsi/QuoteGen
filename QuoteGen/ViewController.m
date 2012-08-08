@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+
 @synthesize myQuotes;
 @synthesize movieQuotes;
 @synthesize quote_text;
@@ -47,7 +48,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)quote_btn_touch:(id)sender {
+-(IBAction)quote_btn_touch:(id)sender {
 	// 1 - Get number of rows in array
     int array_tot = [self.myQuotes count];
 	// 2 - Get random index

@@ -36,13 +36,13 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUITextView" id="980228240">
+					<object class="IBUITextView" id="612231839">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{0, -301}, {320, 460}}</string>
+						<string key="NSFrameSize">{320, 241}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="875084813"/>
+						<reference key="NSNextKeyView" ref="696952976"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>
@@ -57,7 +57,6 @@
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC45NjQ1ODg5OTQ2IDAuMDM0MDk5NzcwNjggMAA</bytes>
 						</object>
-						<int key="IBUITextAlignment">1</int>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -72,10 +71,10 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIButton" id="875084813">
+					<object class="IBUIButton" id="696952976">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{124, 272}, {72, 37}}</string>
+						<string key="NSFrame">{{93, 272}, {135, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -112,7 +111,7 @@
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="980228240"/>
+				<reference key="NSNextKeyView" ref="612231839"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MC43NQA</bytes>
@@ -139,14 +138,14 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">quote_text</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="980228240"/>
+						<reference key="destination" ref="612231839"/>
 					</object>
 					<int key="connectionID">11</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">quote_btn_touch:</string>
-						<reference key="source" ref="875084813"/>
+						<reference key="source" ref="696952976"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -176,19 +175,19 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="875084813"/>
-							<reference ref="980228240"/>
+							<reference ref="696952976"/>
+							<reference ref="612231839"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">8</int>
-						<reference key="object" ref="980228240"/>
+						<int key="objectID">9</int>
+						<reference key="object" ref="696952976"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">9</int>
-						<reference key="object" ref="875084813"/>
+						<int key="objectID">8</int>
+						<reference key="object" ref="612231839"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</array>
@@ -206,7 +205,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">14</int>
+			<int key="maxID">17</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
